@@ -650,11 +650,11 @@ export function App() {
                 <LobsterLogo className="h-24 w-24 shadow-[0_24px_46px_rgba(8,11,18,0.18)]" />
                 <div className="mt-4">
                   <h1 className="text-[32px] font-semibold tracking-[-0.05em] text-zinc-950 sm:text-[38px]">
-                    openclaw 备份助手
+                    OpenClaw 备份助手
                   </h1>
                 </div>
                 <p className="mt-3 max-w-3xl text-sm leading-6 text-zinc-600 sm:text-[15px]">
-                  面向换电脑迁移的本地备份工具，覆盖配置、凭证、记忆、技能、会话历史和自定义扩展。
+                  一键导出 / 导入配置，重装电脑也能无缝迁移龙虾，还能复用他人配置。
                 </p>
               </div>
             </div>

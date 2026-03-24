@@ -1,6 +1,6 @@
 # OpenClaw 备份助手
 
-![OpenClaw 备份助手封面](./docs/cover.svg)
+![OpenClaw 备份助手预览图](./docs/preview.png)
 
 一个面向本地 OpenClaw 用户的桌面备份与迁移工具。
 
