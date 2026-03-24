@@ -87,7 +87,14 @@
 
 1. 双击打开 `.dmg`
 2. 将 `OpenClaw 备份助手.app` 拖到 `Applications`
-3. 首次打开若被 macOS 拦截，右键应用并选择 `打开`
+3. 如果双击后提示“已损坏”“无法验证”或无法打开，请先在终端执行下面这两行：
+
+```bash
+xattr -rd com.apple.quarantine "/Applications/OpenClaw 备份助手.app"
+open "/Applications/OpenClaw 备份助手.app"
+```
+
+4. 如果系统仍然拦截，再尝试右键应用并选择 `打开`
 
 ### 开发环境运行
 
@@ -151,6 +158,12 @@ src-tauri/target/release/bundle/dmg/
 - 如果导出时排除了敏感信息，恢复后需要手动补齐 API Key、Token、Secret
 - 如果 OpenClaw 正在运行，建议先关闭再导入
 - 备份包建议只在可信设备和可信存储位置之间传输
+- 由于当前 GitHub Release 中的 `.dmg` 未做 Apple 签名与 notarization，首次安装后通常需要执行一次放行命令：
+
+```bash
+xattr -rd com.apple.quarantine "/Applications/OpenClaw 备份助手.app"
+open "/Applications/OpenClaw 备份助手.app"
+```
 
 ## 文档
 
