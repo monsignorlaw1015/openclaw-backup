@@ -1,0 +1,60 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1180" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="0.55" stop-color="#FEF3C7"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="card" x1="240" y1="120" x2="1040" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.78"/>
+    </linearGradient>
+    <linearGradient id="lobster" x1="364" y1="194" x2="508" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7B5C"/>
+      <stop offset="1" stop-color="#E64040"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="1110" cy="118" r="118" fill="#FDBA74" fill-opacity="0.24"/>
+  <circle cx="184" cy="560" r="124" fill="#22D3EE" fill-opacity="0.18"/>
+  <rect x="120" y="90" width="1040" height="460" rx="36" fill="url(#card)" stroke="white" stroke-opacity="0.72" stroke-width="2"/>
+
+  <g>
+    <rect x="190" y="155" width="176" height="176" rx="40" fill="#0F172A"/>
+    <path d="M278 186C220 186 192 227 192 272C192 318 219 362 249 374V398H274V377C274 377 279 381 288 381C296 381 302 377 302 377V398H327V374C357 362 384 318 384 272C384 227 336 186 278 186Z" fill="url(#lobster)"/>
+    <path d="M211 250C183 241 169 258 177 281C186 305 209 298 221 278C228 266 221 252 211 250Z" fill="url(#lobster)"/>
+    <path d="M345 250C373 241 387 258 379 281C370 305 347 298 335 278C328 266 335 252 345 250Z" fill="url(#lobster)"/>
+    <path d="M250 194C243 175 223 165 214 170" stroke="#FFB48A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M307 194C314 175 334 165 343 170" stroke="#FFB48A" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="247" cy="243" r="13" fill="#0B1120"/>
+    <circle cx="309" cy="243" r="13" fill="#0B1120"/>
+    <circle cx="250" cy="240" r="5" fill="#2EE6D6"/>
+    <circle cx="312" cy="240" r="5" fill="#2EE6D6"/>
+  </g>
+
+  <g>
+    <text x="420" y="210" fill="#0F172A" font-family="SF Pro Display, PingFang SC, sans-serif" font-size="54" font-weight="700">OpenClaw 备份助手</text>
+    <text x="420" y="266" fill="#475569" font-family="SF Pro Display, PingFang SC, sans-serif" font-size="24" font-weight="500">给本地 OpenClaw 用户准备的离线备份与换机迁移工具</text>
+  </g>
+
+  <g transform="translate(420 330)">
+    <rect width="188" height="128" rx="24" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+    <text x="28" y="42" fill="#7C2D12" font-family="SF Pro Display, PingFang SC, sans-serif" font-size="18" font-weight="600">导出备份</text>
+    <text x="28" y="76" fill="#9A3412" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">识别真实目录</text>
+    <text x="28" y="100" fill="#9A3412" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">支持敏感信息策略</text>
+  </g>
+
+  <g transform="translate(642 330)">
+    <rect width="188" height="128" rx="24" fill="#ECFEFF" stroke="#67E8F9" stroke-width="2"/>
+    <text x="28" y="42" fill="#155E75" font-family="SF Pro Display, PingFang SC, sans-serif" font-size="18" font-weight="600">导入前检查</text>
+    <text x="28" y="76" fill="#0F766E" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">版本差异提示</text>
+    <text x="28" y="100" fill="#0F766E" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">运行状态检测</text>
+  </g>
+
+  <g transform="translate(864 330)">
+    <rect width="188" height="128" rx="24" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2"/>
+    <text x="28" y="42" fill="#166534" font-family="SF Pro Display, PingFang SC, sans-serif" font-size="18" font-weight="600">恢复结果</text>
+    <text x="28" y="76" fill="#15803D" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">单项失败继续</text>
+    <text x="28" y="100" fill="#15803D" font-family="SF Pro Text, PingFang SC, sans-serif" font-size="14">提示补齐敏感配置</text>
+  </g>
+</svg>

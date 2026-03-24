@@ -23,7 +23,7 @@ npx tauri build --bundles dmg
 4. 检查产物
 
 ```bash
-src-tauri/target/release/bundle/dmg/OpenClaw 备份助手_0.1.0_aarch64.dmg
+src-tauri/target/release/bundle/dmg/OpenClaw 备份助手_0.1.1_aarch64.dmg
 ```
 
 ## 发布到 GitHub Releases
@@ -40,7 +40,7 @@ src-tauri/target/release/bundle/dmg/OpenClaw 备份助手_0.1.0_aarch64.dmg
 ## 建议的 Release 标题
 
 ```text
-v0.1.0 - 首个可用的 OpenClaw 本地备份助手
+v0.1.1 - 文档与展示完善
 ```
 
 ## 建议的 Release 描述
